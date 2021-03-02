@@ -1,0 +1,10 @@
+D:\Projects\BitDefenderChallenge\SeleniumFramework\bin\Debug\SeleniumFramework.dll
+D:\Projects\BitDefenderChallenge\SeleniumFramework\bin\Debug\SeleniumFramework.pdb
+D:\Projects\BitDefenderChallenge\SeleniumFramework\bin\Debug\WebDriver.dll
+D:\Projects\BitDefenderChallenge\SeleniumFramework\bin\Debug\WebDriver.Support.dll
+D:\Projects\BitDefenderChallenge\SeleniumFramework\bin\Debug\WebDriver.xml
+D:\Projects\BitDefenderChallenge\SeleniumFramework\bin\Debug\WebDriver.Support.xml
+D:\Projects\BitDefenderChallenge\SeleniumFramework\obj\Debug\SeleniumFramework.csproj.CoreCompileInputs.cache
+D:\Projects\BitDefenderChallenge\SeleniumFramework\obj\Debug\SeleniumFramework.csproj.CopyComplete
+D:\Projects\BitDefenderChallenge\SeleniumFramework\obj\Debug\SeleniumFramework.dll
+D:\Projects\BitDefenderChallenge\SeleniumFramework\obj\Debug\SeleniumFramework.pdb
