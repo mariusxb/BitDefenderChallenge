@@ -35,6 +35,7 @@ namespace BitDefenderChallenge
             driver.Start();
             driver.Instance.Navigate().GoToUrl("https://bitdefender.com");
             //accept cookies
+            Thread.Sleep(1000);
             driver.Instance.FindElement(By.Id(MainPageLocators.acceptAllCookiesID)).Click();
             
             //press the home solutions button
@@ -71,6 +72,7 @@ namespace BitDefenderChallenge
             driver.Start();
             driver.Instance.Navigate().GoToUrl("https://bitdefender.com");
             //accept cookies
+            Thread.Sleep(1000);
             driver.Instance.FindElement(By.Id(MainPageLocators.acceptAllCookiesID)).Click();
 
             //press the home solutions button
