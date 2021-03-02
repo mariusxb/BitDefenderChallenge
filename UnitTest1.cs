@@ -29,8 +29,8 @@ namespace BitDefenderChallenge
         }
 
         [TestMethod]
-        [TestCategory("Challenge 1")]
-        public void TestFlow1()
+        [TestCategory("BitDefender Challenges")]
+        public void Challenge1()
         {
             driver.Start();
             driver.Instance.Navigate().GoToUrl("https://bitdefender.com");
@@ -66,8 +66,8 @@ namespace BitDefenderChallenge
         }
 
         [TestMethod]
-        [TestCategory("Challenge 2")]
-        public void TestFlow2()
+        [TestCategory("BitDefender Challenges")]
+        public void Challenge2()
         {
             driver.Start();
             driver.Instance.Navigate().GoToUrl("https://bitdefender.com");
