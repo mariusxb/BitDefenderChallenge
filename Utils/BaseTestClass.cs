@@ -1,11 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SeleniumFramework;
 
 namespace BitDefenderChallenge.Utils
 {
@@ -21,7 +16,6 @@ namespace BitDefenderChallenge.Utils
         [AssemblyCleanup()]
         public static void AssemblyCleanup()
         {
-            Constants.WriteTestStepToReport("************************************************");
             Constants.WriteTestStepToReport("* Test results *");
             Constants.WriteTestStepToReport("Time when run: " + DateTime.Now.ToString());
             Constants.WriteTestStepToReport("Total tests executed: " + _executedTests);

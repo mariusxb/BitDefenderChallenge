@@ -3,12 +3,13 @@ using SeleniumFramework;
 using SeleniumFramework.Locators;
 using OpenQA.Selenium;
 using System;
-using OpenQA.Selenium.Support.UI;
 using System.Threading;
 using BitDefenderChallenge.Utils;
 
 namespace BitDefenderChallenge
-{
+{   // 
+    // The test results can be found in ..\..\BitDefenderChallenge\bin\Debug\Test Reports\ folder
+    //
     [TestClass]
     public class UnitTest1 : BaseTestClass
     {
@@ -108,6 +109,8 @@ namespace BitDefenderChallenge
 
             //Remove item from cart
             driver.Instance.FindElement(By.CssSelector(OrderCheckout.deleteBtnCSS)).Click();
+            
+            //Logs the Assert exception into log file
             try
             {
                 Assert.AreEqual(qt1Value * 2, qt2Value);

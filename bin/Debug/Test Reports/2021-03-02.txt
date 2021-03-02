@@ -1,112 +1,48 @@
 
 
-Test Run at 02-Mar-21 9:13:00 PM
+Test Run at 02-Mar-21 11:28:18 PM
 Test FAILED !!!
 
+
+
+Test Run at 02-Mar-21 11:28:23 PM
+Test FAILED !!!
 
 * Test results *
-Time when run: 02-Mar-21 9:13:01 PM
-Total tests executed: 1
-Total tests passed: 0
-Total time taken for tests: 00:00:06.3249075
-************************************************
-
-
-* Test results *
-Time when run: 02-Mar-21 9:13:53 PM
-Total tests executed: 1
-Total tests passed: 1
-Total time taken for tests: 00:00:23.8905608
-************************************************
-
-
-* Test results *
-Time when run: 02-Mar-21 9:19:34 PM
-Total tests executed: 1
-Total tests passed: 1
-Total time taken for tests: 00:00:22.7348030
-
-
-************************************************
-
-
-* Test results *
-Time when run: 02-Mar-21 9:22:02 PM
-Total tests executed: 1
-Total tests passed: 1
-Total time taken for tests: 00:00:24.9483046
-************************************************
-Test Run at 02-Mar-21 9:48:56 PM
-Test FAILED !!!
-
-
-* Test results *
-Time when run: 02-Mar-21 9:48:56 PM
-Total tests executed: 2
-Total tests passed: 1
-Total time taken for tests: 00:02:48.9675101
-************************************************
-Test Run at 02-Mar-21 9:53:04 PM
-Test FAILED !!!
-
-
-* Test results *
-Time when run: 02-Mar-21 9:53:10 PM
-Total tests executed: 1
-Total tests passed: 0
-Total time taken for tests: 00:03:25.5172090
-************************************************
-Test Run at 02-Mar-21 10:07:35 PM
-Test FAILED !!!
-Test Run at 02-Mar-21 10:10:11 PM
-Test FAILED !!!
-Test Run at 02-Mar-21 10:17:04 PM
-Test FAILED !!!
-************************************************
-* Test results *
-Time when run: 02-Mar-21 10:17:04 PM
-Total tests executed: 2
-Total tests passed: 1
-Total time taken for tests: 00:00:00
-************************************************
-Test Run at 02-Mar-21 10:23:32 PM
-Test FAILED !!!
-************************************************
-Test Run at 02-Mar-21 10:30:06 PM
-Test FAILED !!!
-************************************************
-Test Run at 02-Mar-21 10:30:32 PM
-Test FAILED !!!
-************************************************
-************************************************
-* Test results *
-Time when run: 02-Mar-21 10:30:32 PM
+Time when run: 02-Mar-21 11:28:23 PM
 Total tests executed: 2
 Total tests passed: 0
-Total time taken for tests: 00:00:31.8565879
+Total time taken for tests: 00:00:09.9440260
 ************************************************
-Test Run at 02-Mar-21 10:32:26 PM
+
+
+Test Run at 02-Mar-21 11:29:10 PM
 Test FAILED !!!
-************************************************
-************************************************
-* Test results *
-Time when run: 02-Mar-21 10:32:30 PM
-Total tests executed: 1
-Total tests passed: 0
-Total time taken for tests: 00:00:53.6085556
-************************************************
-Test Run at 02-Mar-21 10:46:23 PM
+
+
+
+Test Run at 02-Mar-21 11:29:15 PM
 Test FAILED !!!
-Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:<129.98>. Actual:<214.97>. 
-   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
-   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
-   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual)
-   at BitDefenderChallenge.UnitTest1.TestFlow2() in D:\Projects\BitDefenderChallenge\UnitTest1.cs:line 113
-************************************************
-************************************************
+
 * Test results *
-Time when run: 02-Mar-21 10:46:27 PM
-Total tests executed: 1
+Time when run: 02-Mar-21 11:29:15 PM
+Total tests executed: 2
 Total tests passed: 0
-Total time taken for tests: 00:01:05.8701438
+Total time taken for tests: 00:00:09.8364500
+************************************************
+
+
+Test Run at 02-Mar-21 11:33:44 PM
+Test FAILED !!!
+
+
+
+Test Run at 02-Mar-21 11:33:50 PM
+Test FAILED !!!
+
+* Test results *
+Time when run: 02-Mar-21 11:33:50 PM
+Total tests executed: 2
+Total tests passed: 0
+Total time taken for tests: 00:00:10.9026086
 ************************************************
