@@ -14,7 +14,7 @@ namespace SeleniumFramework
     public class SeleniumDriver
     {
         public  IWebDriver Instance { get; set; }
-        public  void Initialize()
+        private void Initialize()
         {
             string path = Environment.CurrentDirectory.ToString();
             Instance = new ChromeDriver(path);
