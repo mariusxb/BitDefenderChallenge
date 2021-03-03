@@ -8,7 +8,7 @@ using BitDefenderChallenge.Utils;
 
 namespace BitDefenderChallenge
 {   // 
-    // The test results can be found in ..\..\BitDefenderChallenge\bin\Debug\Test Reports\ folder
+    // The test results can be found in "..\..\BitDefenderChallenge\bin\Debug\Test Reports\" folder
     //
     [TestClass]
     public class UnitTest1 : BaseTestClass
@@ -87,7 +87,7 @@ namespace BitDefenderChallenge
             //press buy button
             driver.Instance.FindElement(By.XPath(SolutionsPageLocators.buyMultiPlatformPremiumBtnXpath)).Click();
 
-            //find the price dropdown and select $USD
+            //find the price dropdown and select $USD currency
             driver.Instance.FindElement(By.XPath(OrderCheckout.currencySelectorXpath)).Click();
             driver.Instance.FindElement(By.XPath(OrderCheckout.currencyUSDXpath)).Click();
 

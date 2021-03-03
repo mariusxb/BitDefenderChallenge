@@ -41,6 +41,7 @@ namespace BitDefenderChallenge.Utils
         {
             using (var file = new StreamWriter(TestReportPath() + TestReportFileName(), true))
             {
+                file.WriteLine("\n");
                 file.WriteLine("Test Run at " + DateTime.Now.ToString());
                 file.WriteLine("Test TIMED OUT !!!");
             }
@@ -50,6 +51,7 @@ namespace BitDefenderChallenge.Utils
         {
             using (var file = new StreamWriter(TestReportPath() + TestReportFileName(), true))
             {
+                file.WriteLine("\n");
                 file.WriteLine("Test Run at " + DateTime.Now.ToString());
                 file.WriteLine("Test ERROR !!!");
             }
