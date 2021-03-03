@@ -13,3 +13,18 @@ Total tests executed: 2
 Total tests passed: 1
 Total time taken for tests: 00:01:05.1983527
 ************************************************
+
+
+Test Run at 03-Mar-21 1:10:28 PM
+Test FAILED !!!
+Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:<129.98>. Actual:<214.97>. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual)
+   at BitDefenderChallenge.UnitTest1.Challenge2() in D:\Projects\BitDefenderChallenge\UnitTest1.cs:line 118
+* Test results *
+Time when run: 03-Mar-21 1:10:28 PM
+Total tests executed: 2
+Total tests passed: 1
+Total time taken for tests: 00:00:57.1206658
+************************************************

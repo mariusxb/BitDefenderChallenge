@@ -16,8 +16,7 @@ namespace BitDefenderChallenge.Utils
         [AssemblyCleanup()]
         public static void AssemblyCleanup()
         {
-            Constants.WriteTestStepToReport("* Test results *");
-            Constants.WriteTestStepToReport("Time when run: " + DateTime.Now.ToString());
+            Constants.WriteTestStepToReport("Test results");
             Constants.WriteTestStepToReport("Total tests executed: " + _executedTests);
             Constants.WriteTestStepToReport("Total tests passed: " + _passedTests);
             Constants.WriteTestStepToReport("Total time taken for tests: " + totalTestsTime);
